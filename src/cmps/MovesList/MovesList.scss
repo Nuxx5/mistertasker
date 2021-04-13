@@ -1,0 +1,10 @@
+.moves-list {
+  padding: 20px;
+  // display: flex;
+  // flex-wrap: wrap;
+  margin: auto;
+  width: 300px;
+  & > .moves-preview:not(:first-child) {
+    // margin-inline-start: 16px;
+  }
+}
